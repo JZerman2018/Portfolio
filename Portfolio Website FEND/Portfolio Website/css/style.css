@@ -17,19 +17,26 @@ body {
 	background-color: white;
 }
 
+header {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	position: absolute;
+}
+
 #logo {
-	width: 150px; 
+	width: 190px; 
 	position: absolute;
 	left: 105px;
-	top: -35px;
+	top: -50px;
 
 }
 
 .topnav {
 	background-color: #c5ccd8;
-/*	overflow: hidden;*/
+	overflow: hidden;
 	width: 100%;
-	height: 108px;
+	height: 48px;
 	padding-bottom: 50px;
 	
 }
@@ -63,12 +70,16 @@ a {
 }
 */
 
-.hero-section {
+#container {
+	padding-top: 50px;
+}
+
+.img-section {
 	/*background: url("https://www.dropbox.com/s/lk9guu02ct7bqzr/laptop.jpg?dl=0");*/
 	/*background-size: cover;*/
 	width: 100%;
 	height: 100vh;
-	position: absolute;
+	
 	text-align: center;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -82,10 +93,7 @@ a {
 	padding-top: 40px;
   }
   
-  .hero-section .hero-section-text {
-	color: #fefefe;
-	text-shadow: 1px 1px 2px #0a0a0a;
-  }
+ 
   
   
 
