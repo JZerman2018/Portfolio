@@ -4,7 +4,7 @@
 	
 }
 
-html, 
+ 
 body {
 	display: flex;
 	flex-wrap: wrap;
@@ -164,7 +164,7 @@ a {
 }
 
 .contactinfo {
-	border: 2px solid #44a8d2;
+	border: 3px solid #44a8d2;
 	border-top-left-radius: 5%;
 	border-bottom-right-radius: 5%;
 	padding: 10px 30px 0 10px;
@@ -190,7 +190,7 @@ a {
 .aboutsection {
 font-size: 26px;
 font-weight: 900;
-background-color: rgb(94, 125, 182);
+background-color: #5E7DB6;
 border-radius: 60%;
 height: 30px;
 width: 80px;
@@ -232,18 +232,19 @@ main {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding-top: 30px;
-	margin-top: 150px;
+	padding-top: 10px;
+	margin-top: 30px;
 	
 }
 
 .featured-heading {
-	margin-top: 50px;
-	text-align: center;
-	padding-bottom: 20px;
 	font-size: 26px;
-	text-shadow: 1px 1px 1px #87b;
-	width: 100%;
+	font-weight: 900;
+	background-color: #5E7DB6;
+	border-radius: 60%;
+	height: 30px;
+	width: 125px;
+	text-align: center;
 }
 
 .featured-items {
@@ -272,7 +273,7 @@ main {
 }
 
 figure {
-	border: 2px solid gray;
+	border: 3px solid black;
 	
 	margin-top: 40px;
 	margin-bottom: 40px;
@@ -284,7 +285,7 @@ figure {
 }
 
 .btn {
-	background-color: #44a8d2;
+	background-color: #5E7DB6;
 	width: 120px;
 	height: 30px;
 	font-weight: bold;
@@ -294,12 +295,12 @@ figure {
 .project-title {
 	/*background-color: #44a8d2;*/
 	align-content: center;
-	height: 40px;
-	font-size: 20px;
+	height: 50px;
+	font-size: 22px;
 	font-weight: bold;
-	color: #44a8d2;
+	color: #5E7DB6;
 	border-top-right-radius: 4%;
-	text-shadow: 1px 1px 2px black;
+	text-shadow: 2px 2px 3px black;
 }
 
 /*footer*/
@@ -312,7 +313,7 @@ footer {
 	width: 100%;
 	height: 100px;
 	margin-top: 40px;
-	border-top: 2px solid #000;
+	border-top: 3px solid #000;
 	padding-top: 15px;
 }
 
