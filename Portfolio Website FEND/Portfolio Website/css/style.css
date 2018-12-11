@@ -179,6 +179,13 @@ a {
 	width: 100%;
 }
 
+.myimg {
+	border-radius: 60%;
+	height: 180px;
+	width: 180px;
+	
+}
+
 .beach-img {
 	height: 550px;
 	width: 550px;
@@ -186,7 +193,7 @@ a {
 
 #about {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	
 }
 .container1 {
@@ -211,8 +218,13 @@ a {
 	text-transform: uppercase;
 	color: #000;
 	text-shadow: 1px 1px 1px #87b;
-	margin: 0;
-	padding-right: 30px;
+	
+	/*margin: 0;
+	padding-right: 40px;*/
+}
+
+.personalinfo {
+float: left;
 }
 
 .title {
@@ -242,6 +254,17 @@ text-align: center;
 	font-family: Apple Chancery, cursive;
 }
 
+.infocontact {
+	font-size: 26px;
+	font-weight: 900;
+	background-color: #5E7DB6;
+	border-radius: 60%;
+	height: 30px;
+	width: 110px;
+	text-align: center;
+	
+	margin-top: 100px;
+}
 /*main*/
 
 main {
