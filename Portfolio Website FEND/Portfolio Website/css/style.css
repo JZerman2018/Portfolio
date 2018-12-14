@@ -4,6 +4,30 @@
 	
 }
 
+/*global*/
+.navbar-default .navbar-nav > .active > a {
+background-color: #ccc
+}
+
+.navbar-default .navbar-nav > li:hover>a, .navbar-default .navbar-nav > .active:hover a{
+	background-color: #ffb8ff;
+}
+
+.navbar-default .contact-list > li:hover>a {
+	color: #ffb8ff;
+	background: none;
+}
+
+h2 {
+	font-size: 4rem;
+	text-transform: uppercase;
+	letter-spacing: 0.7 rem;
+}
+
+/*end global*/
+
+
+/*
 html, 
 body {
 	display: flex;
@@ -24,7 +48,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 }*/
-
+/*
 header {
 	display: flex;
 	flex-direction: row;
@@ -112,10 +136,10 @@ a {
 /*#container {
 	padding-top: 50px;
 }*/
-
+/*
 .img-section {
 	/*background: url("https://www.dropbox.com/s/lk9guu02ct7bqzr/laptop.jpg?dl=0");*/
-	/*background-size: cover;*/
+	/*background-size: cover;
 	width: 100%;
 	height: 100vh;
 	
@@ -171,7 +195,7 @@ a {
 	width: 150px;
 	margin-right: 0;
 }*/
-
+/*
 #container {
 	display: flex;
 	flex-wrap: wrap;
@@ -198,7 +222,7 @@ a {
 }
 .container1 {
 	/*display: flex;
-	flex-wrap: wrap;*/
+	flex-wrap: wrap;
 	display: inline-flex;
 	
 	margin-top: 60px;
@@ -220,9 +244,9 @@ a {
 	text-shadow: 1px 1px 1px #87b;
 	
 	/*margin: 0;
-	padding-right: 40px;*/
-}
-
+	padding-right: 40px;
+}*/
+/*
 .personalinfo {
 float: left;
 }
@@ -267,7 +291,7 @@ text-align: center;
 }
 /*main*/
 
-main {
+/*main {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -285,7 +309,7 @@ main {
 	font-weight: bold;
 }*/
 
-/*featured work*/
+/*featured work
 
 .projects {
 	display: flex;
@@ -352,7 +376,7 @@ figure {
 }
 
 .project-title {
-	/*background-color: #44a8d2;*/
+	/*background-color: #44a8d2;
 	align-content: center;
 	height: 50px;
 	font-size: 22px;
@@ -362,7 +386,7 @@ figure {
 	text-shadow: 2px 2px 3px black;
 }
 
-/*footer*/
+/*footer
 
 footer {
 	display: flex;
@@ -441,7 +465,7 @@ footer {
 	.featured-items {
 		justify-content: space-between;
 	}
-}
+}*/
  
        
         

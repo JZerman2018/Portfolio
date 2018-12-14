@@ -8,8 +8,51 @@
 	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-<body>
+<body data-spy="scroll" data-target="#nav">
+	<header class="top">
+		<nav class="navbar navbar-default navbar-fixed-top" id="nav">
+			<div class="container">
+				<div class="navbar-header">
+					<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="navbar-collapse collapse" id="navbar">
+					<ul class="nav navbar-nav contact-list">
+						<li><a href="https://github.com/JZerman2018" target="_blank"><i class="fa fa-github fa-2x" title="GitHub" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/juwana-zerman" target="_blank"><i class="fa fa-linkedin fa-2x" title="LinkedIn" aria-hidden="true"></i></a></li>
+						<li><a href="mailto:juwanazerman@gmail.com" target="_blank"><i class="fa fa-envelope fa-2x" title="Email" aria-hidden="true"></i></a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li data-elem="parallax"><a href="#home">Home</a></li>
+						<li data-elem="about"><a href="#about">About</a></li>
+						<li data-elem="projects"><a href="#projects">Projects</a></li>
+						<li data-elem="skills"><a href="#skills">Skills</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="banner parallax scroll" id="parallax">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-offset-4 col-md-8 col-sm-12 banner-content">
+						<h3>Front End Web Developer</h3>
+						<h1>Portfolio</h1>
+						<h3>Juwana Zerman</h3>
+					</div>
+				</div>
+				<div class="row">
+					<img src="img/laptop.jpg" alt="" class="image-responsive center-block scroll-down">
+				</div>
+			</div>
+		</div>
+	</header>
 	<!-- <div id="container">
 		<header class="header">
 			<div class="logo-header">
@@ -24,70 +67,64 @@
 				</div>
 			</div> 
 		</header>
-	</div>-->
+	</div>
 	<header>
 	<div class="topnav">
-		<!--<img alt="zlogo" id="logo" src="img/ZLogo.png">-->
-		<!--<div class="dropdown">-->
+		<img alt="zlogo" id="logo" src="img/ZLogo.png">-->
+		<!--<div class="dropdown">
 		<a href="#contact"><i class="fa fa-fw fa-envelope"></i>Contact</a>
-			<!--<div class="dropdown-content">
+			<div class="dropdown-content">
 			<a href="juwanazerman@gmailcom"><i class="fa fa-fw fa-envelope"></i>Email</a>
 			<a href="https://www.github.com/JZerman2018"><i class="fa fa-fw fa-github-square"></i>Github</a>
 			<a href="https://www.linkedin.com/in/juwana-zerman/"><i class="fa fa-fw fa-linkedin"></i>LinkedIn</a>
 		</div>
-		</div>-->
+		</div>
 			<a href="#projects"><i class="fa fa-fw fa-laptop"></i>Projects</a>
 		<a href="#about"><i class="fa fa-fw fa-user"></i>About</a>		
 	</div>
 	
-</header>
+</header>-->
 	<br>
-	<main class="information">
+	<!--<main class="information">
 		
-		<!--<div class="main">
+		<div class="main">
 			<img alt="Laptop Image" class="main-image" src="img/laptop.jpg">img from Pixabay
 			<p class="photo-credit">Photo by lukasbieri on <a href="https://pixabay.com/en/laptop-macbook-home-office-switched-2838917/" target="_blank">Pixabay</a></p>
-		</div>-->
+		</div>
 		<br>
 		<div id="container">
 		<div class="img-section">
 			<img alt="Laptop Create Image" class="main-image" src="./img/createlaptop1.jpg">
 		</div>
 		</div>
-		  <hr>
+		  <hr>-->
 		  <section id="about"> 
-		  <div class="container1">
-		  <div class="contactinfo">
-			  <p class="aboutsection">About</p>
+		  <div class="container">
+		  <div class="row">
+			  <div class="text-center about-content">
+				<h2>Hello!</h2>
+				<img src="./img/jz.jpg" alt="JZerman Image" class="myimg">
+				<p class="about-text">
+					I'm Juwana. I live in Jacksonville, Florida. I have experience with several languages and frameworks. 
+					I want to continue learning and utilize my skills in the Tech industry. My goal is to solve real world problems using tech solutions. 
+					I like sitting at the beach feeling the breeze and watching the waves. 
+				</p>
+			  </div>
+		  </div>
+		  </div>
+			  
 			  <br>
 			  
-			  <img alt="JZerman Image" class="myimg" src="./img/jz.jpg">
-			  <div class="personalinfo">
-				<p class="name">Juwana Zerman</p>
-				<p class="title">Front-End Developer</p>
-				</div>
-				<br>
-				<p class="aboutme">
-					The above words describe what my work day entails. I love creating and problem solving. I love relaxing too. My favorite relaxing activity is sitting on the beach with a beverage, feeling the breeze, and reading a book.
-				</p>
-				<br>
-				<div>
-					<br>
-					<p class="infocontact">Contact</p>
-				</div>		
-			</div>
-			
-			<div>
-				<img alt="beach" class="beach-img" src="img/seabeach.jpg">
-			</div>
-		</div>
+				
 			</section>
 			<hr>
-			<div class="container2">
-		  <div class="projects">
-		<section id="projects" class="featured">
-			<p class="featured-heading">Projects</p>
+			<section class="works scroll" id="projects">
+			<div class="container">
+		  		<p class="featured-heading">Projects</p>
 			<div class="featured-items">
+				<div class="col-md-4 col-sm-6-xs-12">
+					
+				
 				<figure class="project3">
 					<p class="project-title">Jax Wing Finder</p>
 					<img alt="Jax Wing Finder" class="responsive-two" src="img/JaxScreenShot.png">
@@ -135,9 +172,9 @@
 				</figure>
 			</div>
 		</section>
-		</div>
-		</div>
-	</main> 
+		
+		
+	
 	
 		<footer class="contact-footer">
 			<div class="footer-heading">
