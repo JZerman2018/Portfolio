@@ -113,10 +113,73 @@ header .banner {
 about-text {
 	font-size: 20px;
 	line-height: 2;
-	display: block;
+	
 }
 /*end about*/
 /*projects*/
+.block {
+	box-shadow: 3px 3px 6px #472851;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 10%;
+}
+.projects {
+	padding-bottom: 3%;
+	background: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 10px;
+	margin-top: 30px;
+
+}
+.featured-heading {
+	font-size: 26px;
+	font-weight: 900;
+	background-color: #5E7DB6;
+	border-radius: 60%;
+	height: 30px;
+	width: 125px;
+	text-align: center;
+}
+
+.featured-items {
+	
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: center;
+	padding-bottom: 1.5em;
+	text-align: center;
+	margin: 30px 30px 30px 0;
+}
+
+.responsive-two {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: 1.5em;
+	text-align: center;
+	font-weight: bold;
+	max-width: 330px;
+	max-height: 360px;
+	margin: 20px 0px 20px 0px;
+	width: 100%;
+}
+
+figure {
+	border: 3px solid black;
+	
+	margin-top: 40px;
+	margin-bottom: 40px;
+	height: 350px;
+	width: 330px;
+	background-color: #eaf3f7;
+	border-top-right-radius: 4%;
+	border-bottom-left-radius: 4%;
+}
 
 
 
